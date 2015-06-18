@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sit Fit</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="onestar">One Star Performance</string>
+    <string name="twostar">Two Star Performance</string>
+    <string name="threestar">Three Star Performance</string>
+    <string name="fourstar">Four Star Performance</string>
+    <string name="bestposture">Best Posture for an Entire Day</string>
+    <string name="fitnessfreak">Fitness Freak</string>
+    <string name="amateur">Amateur</string>
+    <string name="constantperformer">Consistent Performer</string>
+    <string name="socialprofile">Networking</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="flex">Fitbit Flex</string>
+    <string name="surge">Fitbit Surge</string>
+    <string name="pebble">Pebble Smart Watch</string>
+    <string name="myo">Myo Arm Band</string>
+    
+    <string name="cartman">Eric Cartman</string>
+    <string name="spock">Spock</string>
+    <string name="vader">Darth Vader</string>
+    
+    
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+ <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Posture</item>
+        <item>Library</item>
+        <item>MyO\' Stretches</item>
+        <item>Friends</item>
+        <item>Devices</item>
+        <item>Badges</item>
+        <item>About</item>
+    </string-array>
+
+    <string name="register"><u>Why we dont sell ads</u></string>
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+      <array name="nav_drawer_icons">
+        <item>@drawable/home</item>
+        <item>@drawable/posture</item>
+        <item>@drawable/library</item>
+        <item>@drawable/mom</item>
+        <item>@drawable/friends</item>
+        <item>@drawable/devices</item>
+        <item>@drawable/badges</item>
+        <item>@drawable/about</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="flex_str">Battery Percent :77% 
+        					Paired:Yes</string>
+    <string name="surge_str">Paired:No</string>
+    <string name="pebble_str">Battery Percent :80% 
+        					Paired:Yes</string>
+    <string name="myo_str">Battery Percent :70% 
+        					Paired:Yes</string>
+	
+    <string name="cart_scr">Seating Habit:Bad 
+        						Score:30</string>
+    <string name="spock_scr">Seating Habit:Good 
+        						Score:90</string>
+    <string name="vader_scr">Seating Habit:Fair 
+        						Score:50</string>
+    
+    
+    <string name="amateur_scr">Earn by Sitting in best Posture for Half Hour
+        						Status:Earned 
+        						Points:50</string>
+    <string name="onestar_scr">Earn by Maintaining a Good Average Posture for a day
+        						Status:Earned 
+        						Points:100</string>
+    <string name="twostar_scr">Earn by Maintaining a Good Average Posture for 3 days
+        						Status:Earned 
+        						Points:150</string>
+    <string name="threestar_scr">Earn by Maintaining a Good Average Posture for a Week
+        						Status:Yet to Earn 
+        						Points:200</string>
+    <string name="fourstar_scr">Earn by Maintaining a Good Average Posture for a Fortnight
+        						Status:Yet to Earn 
+        						Points:250</string>
+    <string name="bestposture_scr">Earn by Maintaining a Good Average Posture for a Month
+        						Status:Yet to Earn 
+        						Points:500</string>
+    <string name="fitnessfreak_scr">Earn by Being the fittest among your friends
+        						Status:Yet to Earn 
+        						Points:350</string>
+    <string name="constantperformer_scr">Earn by Being among the Top 10 every week within a month
+        						Status:Yet to Earn 
+        						Points:400</string>
+    <string name="socialnetwork_scr">Earn by Sharing your Score on Social Media
+        						Status:Earned 
+        						Points:150</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/chair"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/white"
+        android:src="@drawable/chairexec" />
+
+    <ImageView
+        android:id="@+id/light1"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="101dp"
+        android:layout_marginTop="118dp"
+        android:background="@drawable/corners" />
+
+    <ImageView
+        android:id="@+id/light2"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/light1"
+        android:layout_marginTop="49dp"
+        android:layout_toRightOf="@+id/light1"
+        android:background="@drawable/corners" />
+
+    <ImageView
+        android:id="@+id/light4"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="46dp"
+        android:layout_toRightOf="@+id/light2"
+        android:background="@drawable/corners" />
+
+    <ImageView
+        android:id="@+id/light3"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/light4"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/light4"
+        android:background="@drawable/corners" />
+
+    <ImageView
+        android:id="@+id/light6"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignTop="@+id/light3"
+        android:layout_marginLeft="42dp"
+        android:layout_toRightOf="@+id/light4"
+        android:background="@drawable/corners" />
+
+    <ImageView
+        android:id="@+id/light5"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_below="@+id/light6"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@+id/light6"
+        android:background="@drawable/corners" />
+
+</RelativeLayout>
