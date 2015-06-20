@@ -5,5 +5,8 @@
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="/Users/hasudhakar/imageshack-android-sdk/ImageShackSDK/libs/android-async-http-1.4.4.jar"/>
+	<classpathentry kind="lib" path="/Users/hasudhakar/Downloads/twilio-java-sdk-3.3.9-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="/Users/hasudhakar/Downloads/common-lang3.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

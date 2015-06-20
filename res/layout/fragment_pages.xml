@@ -18,7 +18,7 @@
         android:layout_above="@+id/txtLabel"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="17dp"
-        android:text="SitFit"
+        android:text="Smartify"
         android:textSize="16dp" />
 
     <TextView

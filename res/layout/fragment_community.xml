@@ -1,14 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" 
+    android:orientation="vertical"
+    android:weightSum="1">
 
-    <ExpandableListView
-        android:id="@+id/expandableListView"
+    <LinearLayout android:layout_weight="0.1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+		android:orientation="horizontal"
+        >
+     <Button
+        android:id="@+id/takepic"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+
+        android:text="Take Picture" />
+
+  
+    <Button
+        android:id="@+id/browseButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+
+        android:text="Browse Photos" />
+    </LinearLayout>
+    <Button
+        android:layout_weight="0.1"
+        android:id="@+id/getDataButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true" >
-    </ExpandableListView>
-
-</RelativeLayout>
+        android:text="Get Data" />
+<WebView  
+    android:layout_weight="0.6"
+    android:id="@+id/webView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+/>
+</LinearLayout>
